@@ -120,7 +120,6 @@ public class NumberTriangle {
         InputStream inputStream = NumberTriangle.class.getClassLoader().getResourceAsStream(fname);
         BufferedReader br = new BufferedReader(new InputStreamReader(inputStream));
 
-
         int linenum = 1;
 
         // will need to return the top of the NumberTriangle,
