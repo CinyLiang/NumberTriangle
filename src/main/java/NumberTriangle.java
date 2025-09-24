@@ -120,7 +120,6 @@ public class NumberTriangle {
         InputStream inputStream = NumberTriangle.class.getClassLoader().getResourceAsStream(fname);
         BufferedReader br = new BufferedReader(new InputStreamReader(inputStream));
 
-
         int linenum = 1;
 
         // will need to return the top of the NumberTriangle,
@@ -130,9 +129,6 @@ public class NumberTriangle {
 
         String line = br.readLine();
         while (line != null) {
-
-            // remove when done; this line is included so running starter code prints the contents of the file
-            System.out.println(line);
 
             String [] nums = line.split(" ");
             if(nums.length != linenum){
